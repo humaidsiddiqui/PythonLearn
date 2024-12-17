@@ -1,0 +1,4 @@
+Hi Everyone
+we arlearning File I/0
+using python
+I like programming in Python
