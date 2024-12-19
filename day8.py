@@ -17,7 +17,7 @@ print(s1) #both s1 and self are same
 class Stud:
     def __init__(self,fullname,marks): 
         print("adding a new name in database")
-        self.fullname=fullname
+        self.fullname=fullname #aisa data har object ka different hota usse self. is define krte hai jaise marks aur name har student k diff hoga
         self.marks=marks
 
 
@@ -28,7 +28,7 @@ s2=Stud("Anwar",55.0)
 print(s2.fullname,s2.marks)
 
 
-wap to take name,marks as arguements and cal sum of avg marks by using self constructor
+#wap to take name,marks as arguements and cal sum of avg marks by using self constructor
 class Student:
     def __init__(self,name,marks):
         self.name=name
