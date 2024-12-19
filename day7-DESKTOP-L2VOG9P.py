@@ -1,10 +1,9 @@
 
-# working on file word searching
 def check_for_word():
     count=1
     word="learning"
     data=True
-    with open("practice.txt","r") as f:
+    with open("c:/Users/User/OneDrive/Desktop/PythonProgramming/PythonLearn/file123.txt","r") as f:
         while data:
             data=f.readline()
             if(word in data):
