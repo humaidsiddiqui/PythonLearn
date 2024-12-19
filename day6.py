@@ -7,7 +7,7 @@ calc_sum(2,10)
 calc_sum(4,12)
 calc_sum(6,5)
 
-another way!!
+# another way!!
 def calculate(a,b):
     return a+b
 
@@ -15,7 +15,7 @@ sum=calculate(12,4)
 print(sum)
 
 
-you can make no return and no paramters functions in coding too!
+# you can make no return and no paramters functions in coding too!
 def helloworld():
     print("hello world!")
 
@@ -25,7 +25,7 @@ helloworld()
 helloworld()
 
 
-the function who doesn't return any output will display none 
+# the function who doesn't return any output will display none 
 def hi():
     print("hi")
 
@@ -75,7 +75,7 @@ def convert(cad_value):
     return(usd_value)
 convert(100)
 
-WAP To input from user and return whether it is true or not
+# WAP To input from user and return whether it is true or not
 def Even_or_odd(num):
     if (num%2==0):
         print("EVEN")
@@ -85,8 +85,8 @@ userinput=int(input("enter the number: "))
 Even_or_odd(userinput)
 
 
-recursion: When a function calls itself repeateadly
-prints n to 1 backwards
+# recursion: When a function calls itself repeateadly
+# prints n to 1 backwards
 def show (n):
     if (n==0): #base case which decide when the functions needs to stop!!
         return
@@ -128,7 +128,7 @@ print_list(cities)
 # again index 1 is == to length of list (no), again same , till index 4 == length(which is 4) now it returns and breaks the recursive function
 
 
-FILE I/0  IN PYTHON
+# FILE I/0  IN PYTHON
 
 f=open("demo.txt","r")
 data=f.read()
@@ -151,15 +151,15 @@ f.close
 
 
 
-it's easier with with syntax as it doesn't need to close the file
+# it's easier with with syntax as it doesn't need to close the file
 with open("demo.txt","r") as f:
     data=f.read()
     print(data)
 
 
-Deleting a file : using a OS module: Module (like a code library) is a file written by another programmer that generally has a functions we can use
- import os
-os.remoe(filename)
+# Deleting a file : using a OS module: Module (like a code library) is a file written by another programmer that generally has a functions we can use
+# import os
+# os.remoe(filename)
 
 import os
 os.remove("Sample.txt")
