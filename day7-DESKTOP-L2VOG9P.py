@@ -8,12 +8,4 @@ def check_for_word():
             data=f.readline()
             if(word in data):
                 print(count)
-                return
-            count+=1
-        return -1
-
-
-
-
-
-    
+                retur
